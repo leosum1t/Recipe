@@ -251,6 +251,7 @@ function App() {
           <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
             {filteredRecipes.map((recipe) => (
               <div key={recipe.id} className="overflow-hidden rounded-2xl bg-white shadow-md transition hover:-translate-y-1 hover:shadow-xl">
+                
                 <div className="relative">
                   <img src={recipe.image} alt={recipe.name} className="h-56 w-full object-cover"/>
 
